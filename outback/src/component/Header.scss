@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+
+  
+}
+h1{
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+#ul1{
+  color: white;
+  list-style: none;
+  text-align: center;
+  margin: 35px;
+  transition: .5s;
+}#ul1 li{
+  padding: 0 10px;
+  list-style: none;
+}#ul1 li a{
+  text-decoration: none;
+  color: white;
+}
+
+#ul2{
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+#ul2 li{
+  font-size: 15px;
+  padding: 0 10px;
+}
+#ul2 li a{
+  text-decoration: none;
+  color: #8f8f8f;
+}
+#ul2 #li1 {
+  background-color: #343436;
+}
+#ul2 #li1 a{
+  color: white;
+  background-color: #555;
+}
+
+.bg-dark{
+
+  #ul1{
+    margin: 0;
+  }
+}
+.bg-transparent{
+
+}
+
+.navbar-toggler{
+  //open  햄버거
+  //  X디자인
+
+  &.collapsed{
+    // 닫힌 버거
+    //
+
+  }
+
+
+}

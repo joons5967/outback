@@ -1,0 +1,43 @@
+#mainSwiper {
+  max-width: none;
+  .swiper-slide{
+    max-height:900px;
+    height:45vw;
+    background-position: center;
+    @media (max-width:1024px) {
+      height:70vw;
+    }
+    @media (max-width:620px) {
+      height:120vw;
+      background-size: auto 100%;
+    }
+
+}
+}
+#middleBanner{
+  .swiper-slide{
+    max-height:900px;
+    height:45vw;
+    background-position: center;
+    @media (max-width:1024px) {
+      height:70vw;
+    }
+    @media (max-width:620px) {
+      height:120vw;
+      background-size: auto 100%;
+    }
+
+}
+}
+#brandSwiper{
+  .swiper-slide{
+    height:90px;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+  }
+  .swiper-pagination{
+    display: none;
+  } 
+
+}

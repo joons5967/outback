@@ -1,0 +1,72 @@
+
+.box1{
+  background-color: #907354;
+  height: 180px;
+  font-size: 25px;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box2{
+  background-color: #434343;
+  height: 180px;
+  font-size: 25px;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box3{
+  background-color: #c30808;
+  height: 180px;
+  font-size: 25px;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pn1{
+  font-size: 13px;
+}
+.pn2{
+  font-size: 13px ;
+}
+.pn3{
+  font-size: 13px;
+}
+.img0{
+  background-image : url(../../public/img/pn1.png);
+  background-repeat: no-repeat;
+
+}
+.img1{
+  background-image : url(../../public/img/pn2.png);
+  background-repeat: no-repeat;
+
+}
+.img2{
+  background-image : url(../../public/img/pn3.png);
+  background-repeat: no-repeat;
+
+}
+.img0, .img1, .img2{
+  background-position: calc(100% - 2rem) calc(100% - 2rem);
+}
+.box1:hover{
+  background-position-y: 90px;
+  transition: .5s;
+}
+.box2:hover{
+  background-position-y: 90px;
+  transition: .5s;
+}
+.box3:hover{
+  background-position-y: 90px;
+  transition: .5s;
+}
+// .arrow{
+//   background-image : url(../../public/img/arrow1.png) ;
+//   background-repeat: no-repeat;
+// }
+.arrow0{
+
+}
+

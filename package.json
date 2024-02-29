@@ -1,0 +1,26 @@
+{
+  "name": "nodeCafe24react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "server": "node ./web.js",
+    "front": "cd outback && npm run build",
+    "start": "concurrently  \"npm run server\" \"npm run front\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "이준성",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
